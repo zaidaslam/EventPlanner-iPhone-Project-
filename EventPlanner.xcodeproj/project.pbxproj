@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0074531F861C1A0049BD64 /* ImgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0074521F861C1A0049BD64 /* ImgController.swift */; };
+		0F6BBCAB1F84ACD8007EB4A4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BBCAA1F84ACD8007EB4A4 /* HomeController.swift */; };
+		0F7E6BDC1F7B6DC500D9702D /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E6BDB1F7B6DC500D9702D /* mapViewController.swift */; };
+		0F8A45961F871D7C004F2925 /* imgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A45951F871D7C004F2925 /* imgCell.swift */; };
+		0F8A45981F874FEF004F2925 /* MeetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A45971F874FEF004F2925 /* MeetController.swift */; };
+		0F8A459A1F875B07004F2925 /* MeetingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A45991F875B07004F2925 /* MeetingListController.swift */; };
+		0F8A45A21F877896004F2925 /* MeetDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A45A11F877896004F2925 /* MeetDetails.swift */; };
+		0FF533241F7CED1700F70CC0 /* ToDoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF533231F7CED1700F70CC0 /* ToDoListController.swift */; };
+		EE5EBBEC1F74CEE900346B65 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5EBBEB1F74CEE900346B65 /* ListController.swift */; };
+		EE772A331F888DC700B34289 /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE772A321F888DC700B34289 /* MeetingCell.swift */; };
+		EE772A351F88ED4000B34289 /* EditDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE772A341F88ED4000B34289 /* EditDetails.swift */; };
 		EECD28C31F748FE6009CDD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28C21F748FE6009CDD8D /* AppDelegate.swift */; };
-		EECD28C51F748FE6009CDD8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28C41F748FE6009CDD8D /* ViewController.swift */; };
 		EECD28C81F748FE6009CDD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECD28C61F748FE6009CDD8D /* Main.storyboard */; };
 		EECD28CB1F748FE6009CDD8D /* EventPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EECD28C91F748FE6009CDD8D /* EventPlanner.xcdatamodeld */; };
 		EECD28CD1F748FE6009CDD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECD28CC1F748FE6009CDD8D /* Assets.xcassets */; };
 		EECD28D01F748FE6009CDD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECD28CE1F748FE6009CDD8D /* LaunchScreen.storyboard */; };
 		EECD28DB1F748FE6009CDD8D /* EventPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28DA1F748FE6009CDD8D /* EventPlannerTests.swift */; };
 		EECD28E61F748FE6009CDD8D /* EventPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28E51F748FE6009CDD8D /* EventPlannerUITests.swift */; };
+		EECD28F81F74ADCF009CDD8D /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28F71F74ADCF009CDD8D /* TableCell.swift */; };
+		EECD28FC1F74AF8C009CDD8D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28FB1F74AF8C009CDD8D /* SwiftyJSON.swift */; };
+		EECD28FE1F74B0BD009CDD8D /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD28FD1F74B0BD009CDD8D /* MapPin.swift */; };
+		EEFABF271F89F3EC00F32492 /* DatabaseDelegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFABF261F89F3EC00F32492 /* DatabaseDelegation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0074521F861C1A0049BD64 /* ImgController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgController.swift; sourceTree = "<group>"; };
+		0F6BBCAA1F84ACD8007EB4A4 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0F7E6BDB1F7B6DC500D9702D /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		0F8A45951F871D7C004F2925 /* imgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgCell.swift; sourceTree = "<group>"; };
+		0F8A45971F874FEF004F2925 /* MeetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetController.swift; sourceTree = "<group>"; };
+		0F8A45991F875B07004F2925 /* MeetingListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingListController.swift; sourceTree = "<group>"; };
+		0F8A45A11F877896004F2925 /* MeetDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetDetails.swift; sourceTree = "<group>"; };
+		0FF533231F7CED1700F70CC0 /* ToDoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListController.swift; sourceTree = "<group>"; };
+		EE5EBBEB1F74CEE900346B65 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		EE772A321F888DC700B34289 /* MeetingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
+		EE772A341F88ED4000B34289 /* EditDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDetails.swift; sourceTree = "<group>"; };
 		EECD28BF1F748FE6009CDD8D /* EventPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECD28C21F748FE6009CDD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EECD28C41F748FE6009CDD8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EECD28C71F748FE6009CDD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EECD28CA1F748FE6009CDD8D /* EventPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventPlanner.xcdatamodel; sourceTree = "<group>"; };
 		EECD28CC1F748FE6009CDD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +73,10 @@
 		EECD28E11F748FE6009CDD8D /* EventPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECD28E51F748FE6009CDD8D /* EventPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlannerUITests.swift; sourceTree = "<group>"; };
 		EECD28E71F748FE6009CDD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECD28F71F74ADCF009CDD8D /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableCell.swift; path = ../TableCell.swift; sourceTree = "<group>"; };
+		EECD28FB1F74AF8C009CDD8D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		EECD28FD1F74B0BD009CDD8D /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		EEFABF261F89F3EC00F32492 /* DatabaseDelegation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseDelegation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +127,12 @@
 		EECD28C11F748FE6009CDD8D /* EventPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				EECD28C21F748FE6009CDD8D /* AppDelegate.swift */,
-				EECD28C41F748FE6009CDD8D /* ViewController.swift */,
-				EECD28C61F748FE6009CDD8D /* Main.storyboard */,
+				EEFABF251F89C73900F32492 /* View */,
+				EEFABF241F89C6F600F32492 /* Model */,
+				EEFABF231F89C64100F32492 /* Controller */,
 				EECD28CC1F748FE6009CDD8D /* Assets.xcassets */,
 				EECD28CE1F748FE6009CDD8D /* LaunchScreen.storyboard */,
 				EECD28D11F748FE6009CDD8D /* Info.plist */,
-				EECD28C91F748FE6009CDD8D /* EventPlanner.xcdatamodeld */,
 			);
 			path = EventPlanner;
 			sourceTree = "<group>";
@@ -126,6 +153,45 @@
 				EECD28E71F748FE6009CDD8D /* Info.plist */,
 			);
 			path = EventPlannerUITests;
+			sourceTree = "<group>";
+		};
+		EEFABF231F89C64100F32492 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EECD28C21F748FE6009CDD8D /* AppDelegate.swift */,
+				EE772A341F88ED4000B34289 /* EditDetails.swift */,
+				EECD28FD1F74B0BD009CDD8D /* MapPin.swift */,
+				EECD28F71F74ADCF009CDD8D /* TableCell.swift */,
+				EE5EBBEB1F74CEE900346B65 /* ListController.swift */,
+				0F7E6BDB1F7B6DC500D9702D /* mapViewController.swift */,
+				0F0074521F861C1A0049BD64 /* ImgController.swift */,
+				0F6BBCAA1F84ACD8007EB4A4 /* HomeController.swift */,
+				0FF533231F7CED1700F70CC0 /* ToDoListController.swift */,
+				0F8A45951F871D7C004F2925 /* imgCell.swift */,
+				0F8A45971F874FEF004F2925 /* MeetController.swift */,
+				0F8A45991F875B07004F2925 /* MeetingListController.swift */,
+				0F8A45A11F877896004F2925 /* MeetDetails.swift */,
+				EE772A321F888DC700B34289 /* MeetingCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EEFABF241F89C6F600F32492 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEFABF261F89F3EC00F32492 /* DatabaseDelegation.swift */,
+				EECD28C91F748FE6009CDD8D /* EventPlanner.xcdatamodeld */,
+				EECD28FB1F74AF8C009CDD8D /* SwiftyJSON.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEFABF251F89C73900F32492 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EECD28C61F748FE6009CDD8D /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +328,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EECD28C51F748FE6009CDD8D /* ViewController.swift in Sources */,
+				EECD28F81F74ADCF009CDD8D /* TableCell.swift in Sources */,
+				EECD28FC1F74AF8C009CDD8D /* SwiftyJSON.swift in Sources */,
+				0F6BBCAB1F84ACD8007EB4A4 /* HomeController.swift in Sources */,
+				EE5EBBEC1F74CEE900346B65 /* ListController.swift in Sources */,
+				EECD28FE1F74B0BD009CDD8D /* MapPin.swift in Sources */,
 				EECD28C31F748FE6009CDD8D /* AppDelegate.swift in Sources */,
+				0FF533241F7CED1700F70CC0 /* ToDoListController.swift in Sources */,
+				0F8A45A21F877896004F2925 /* MeetDetails.swift in Sources */,
+				0F8A45981F874FEF004F2925 /* MeetController.swift in Sources */,
+				0F0074531F861C1A0049BD64 /* ImgController.swift in Sources */,
+				EE772A331F888DC700B34289 /* MeetingCell.swift in Sources */,
+				0F8A45961F871D7C004F2925 /* imgCell.swift in Sources */,
 				EECD28CB1F748FE6009CDD8D /* EventPlanner.xcdatamodeld in Sources */,
+				0F7E6BDC1F7B6DC500D9702D /* mapViewController.swift in Sources */,
+				EE772A351F88ED4000B34289 /* EditDetails.swift in Sources */,
+				EEFABF271F89F3EC00F32492 /* DatabaseDelegation.swift in Sources */,
+				0F8A459A1F875B07004F2925 /* MeetingListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +591,7 @@
 				EECD28EC1F748FE6009CDD8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EECD28ED1F748FE6009CDD8D /* Build configuration list for PBXNativeTarget "EventPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +600,7 @@
 				EECD28EF1F748FE6009CDD8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EECD28F01F748FE6009CDD8D /* Build configuration list for PBXNativeTarget "EventPlannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +609,7 @@
 				EECD28F21F748FE6009CDD8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
